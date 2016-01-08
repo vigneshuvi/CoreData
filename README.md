@@ -11,19 +11,19 @@ CoreData tutorial helps to create iPhone/iPad mobile application Project with Co
 
 #### Table of Contents
 
-	1.	Necessary Environemnt.
-	2.	Shortcut Keys in Xcode.
-	3.	What is CoreData?
-	4.	Create Project with CoreData.
-	5.	Create Entities and Attributes in Model Layer. 
-	6.	User Object life cycle : Create, Fetch, Update, Delete datas.
-	7.	Download Sample Project
+1.	Necessary Environemnt.
+2.	Shortcut Keys in Xcode.
+3.	What is CoreData?
+4.	Create Project with CoreData.
+5.	Create Entities and Attributes in Model Layer. 
+6.	User Object life cycle : Create, Fetch, Update, Delete datas.
+7.	Download Sample Project
   
 
 #### 1. Necessary Environemnt
 
-	-   MAC system with above OS X (Yosimite) version 10.10.*
-	-   Xcode version 7.*
+*	MAC system with above OS X (Yosimite) version 10.10.*
+*	Xcode version 7.*
 
 #### 2. Shortcut Keys in Xcode
 
@@ -42,56 +42,61 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 #### 4. Create Project with CoreData
 
-	1. 	Open Xcode.
-	2. 	Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
-	3.	Choose your template for you new project.
-		- Select Single View Application
-		- Select Language Swift
-		- Select Use Core Data Check box.
-	4. 	Save it in Workspace.
+1. 	Open Xcode.
+2. 	Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
+3.	Choose your template for you new project.
+	- Select Single View Application
+	- Select Language Swift
+	- Select Use Core Data Check box.
+4. 	Save it in Workspace.
 
 #### 5. Create Entities and Attributes in Model Layer
 
-	- Go to the Workspace.
-	- Double Click ProjectName.xcodeproj and Open it in Xcode.
-	- Open ProjectName.xcdatamodeld
-	- Add Entite and Change name as you wish.
-	- Add Attribute for your Entity and Select Data Type for Attributes.
-	- Save it( ⌘ + S ).
+- Go to the Workspace.
+- Double Click ProjectName.xcodeproj and Open it in Xcode.
+- Open ProjectName.xcdatamodeld
+- Add Entite and Change name as you wish.
+- Add Attribute for your Entity and Select Data Type for Attributes.
+- Save it( ⌘ + S ).
 
 #### 6. Core Data Object life cycle
 
-	-	Create and Save object in local CoreData database. 
+-	Create and Save object in local CoreData database. 
 
-		Here's an example:
+Here's an example:
 
-		```
-		var User = [NSManagedObject]()
-		// Get AppDelegate Object       
-		let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
-		// Get Managed Context Object with help of AppDelegate.
-		let managedContext = appDelegate.managedObjectContext
+```
+var User = [NSManagedObject]()
+// Get AppDelegate Object       
+let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 
-		// Create Entity Description with your entity name.
-		let entity =  NSEntityDescription.entityForName("YOUR_ENTITE_NAME",
-		    inManagedObjectContext:managedContext)
+// Get Managed Context Object with help of AppDelegate.
+let managedContext = appDelegate.managedObjectContext
 
-		// Create Managed Objec with help of Entity and Managed Context.
-		let managedObject = NSManagedObject(entity: entity!,
-		    insertIntoManagedObjectContext: managedContext)
+// Create Entity Description with your entity name.
+let entity =  NSEntityDescription.entityForName("YOUR_ENTITE_NAME",
+    inManagedObjectContext:managedContext)
 
-		// Set the value for your represent attributes.
-		managedObject.setValue(VALUE, forKey: "YOUR_ATTRIBUTE")
+// Create Managed Objec with help of Entity and Managed Context.
+let managedObject = NSManagedObject(entity: entity!,
+    insertIntoManagedObjectContext: managedContext)
 
-		// Handle the Exception.
-		do {
-		    try managedContext.save() // Save Mangaged Context
-		    User.append(managedObject)  // Append your managedObject to the Database.
-		} catch let error as NSError  {
-		    print("Could not save \(error), \(error.userInfo)")
-		}
-		```
+// Set the value for your represent attributes.
+managedObject.setValue(VALUE, forKey: "YOUR_ATTRIBUTE")
+
+// Handle the Exception.
+do {
+    try managedContext.save() // Save Mangaged Context
+    User.append(managedObject)  // Append your managedObject to the Database.
+} catch let error as NSError  {
+    print("Could not save \(error), \(error.userInfo)")
+}
+```
 
 #### 7. Clone or Download Sample Project
 
