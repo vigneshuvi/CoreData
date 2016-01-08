@@ -11,7 +11,7 @@ CoreData tutorial helps to create iPhone/iPad mobile application Project with Co
 
 #### Table of Contents
 
-1.	Necessary Environemnt.
+1.	Necessary Environment.
 2.	Shortcut Keys in Xcode.
 3.	What is CoreData?
 4.	Create Project with CoreData.
@@ -20,7 +20,7 @@ CoreData tutorial helps to create iPhone/iPad mobile application Project with Co
 7.	Download Sample Project
   
 
-#### 1. Necessary Environemnt
+#### 1. Necessary Environment
 
 *	MAC system with above OS X (Yosimite) version 10.10.*
 *	Xcode version 7.*
