@@ -1,15 +1,15 @@
 # CoreData
 Swift Core Data Basics with easy sample project.
 
-#Description
+#### 	Description
 
 CoreData tutorial helps to create iPhone/iPad mobile application Project with CoreData.framework in [Swift](https://developer.apple.com/swift/). I have created the sample project with clear comments and instructions.
 
-#Frameworks used
+#### Frameworks used
 
-*	[CoreData.framework](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreData/index.html)
+* [CoreData.framework](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreData/index.html)
 
-#Tutorial Table of Contents
+#### Table of Contents
 
 	1.	Necessary Environemnt.
 	2.	Shortcut Keys in Xcode.
@@ -42,24 +42,24 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 #### 4. Create Project with CoreData
 
-	1.   Open Xcode.
-	2.   Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
-	3.   Choose your template for you new project.
-	⋅⋅* 	Select Single View Application
-	..* 	Select Language Swift
-	..*	Select Use Core Data Check box.
-	4.   Save it in Workspace.
+	1. Open Xcode.
+	2. Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
+	3. Choose your template for you new project.
+	* Select Single View Application
+	* Select Language Swift
+	* Select Use Core Data Check box.
+	4. Save it in Workspace.
 
 #### 5. Create Entities and Attributes in Model Layer
 
-	*	Go to the Workspace.
-	*	Double Click ProjectName.xcodeproj and Open it in Xcode.
-	*	Open ProjectName.xcdatamodeld
-	*	Add Entite and Change name as you wish.
-	*	Add Attribute for your Entity and Select Data Type for Attributes.
-	*   Save it( ⌘ + S ).
+	* Go to the Workspace.
+	* Double Click ProjectName.xcodeproj and Open it in Xcode.
+	* Open ProjectName.xcdatamodeld
+	* Add Entite and Change name as you wish.
+	* Add Attribute for your Entity and Select Data Type for Attributes.
+	* Save it( ⌘ + S ).
 
-#### H4 6. Core Data Object life cycle
+#### 6. Core Data Object life cycle
 
 	-	Create and Save object in local CoreData database. 
 
@@ -95,15 +95,17 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 #### 7. Clone or Download Sample Project
 
-*	Download as Zip file. [Sample UviCoreData](https://github.com/vigneshuvi/CoreData/archive/master.zip)	
-*	Clone with github URL. [https://github.com/vigneshuvi/CoreData.git](https://github.com/vigneshuvi/CoreData.git)
+* Download as Zip file. [Sample UviCoreData](https://github.com/vigneshuvi/CoreData/archive/master.zip)	
+* Clone with github URL. [https://github.com/vigneshuvi/CoreData.git](https://github.com/vigneshuvi/CoreData.git)
 
+___
 
 #### Do you like it?
 
 Do you like this repo? Share it on Twitter, Facebook, Google+ or anywhere you like so that more of us can use it and help. Thanks!
 
 Created by [Vignesh](http://vigneshuvi.github.io/) 
+
 ![alt text][logo]
 
 [logo]: https://github.com/vigneshuvi/vigneshuvi.github.io/blob/master/favicon.ico/android-icon-48x48.png 
