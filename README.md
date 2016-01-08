@@ -42,22 +42,22 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 #### 4. Create Project with CoreData
 
-	1. Open Xcode.
-	2. Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
-	3. Choose your template for you new project.
-	* Select Single View Application
-	* Select Language Swift
-	* Select Use Core Data Check box.
-	4. Save it in Workspace.
+	1. 	Open Xcode.
+	2. 	Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
+	3.	Choose your template for you new project.
+		- Select Single View Application
+		- Select Language Swift
+		- Select Use Core Data Check box.
+	4. 	Save it in Workspace.
 
 #### 5. Create Entities and Attributes in Model Layer
 
-	* Go to the Workspace.
-	* Double Click ProjectName.xcodeproj and Open it in Xcode.
-	* Open ProjectName.xcdatamodeld
-	* Add Entite and Change name as you wish.
-	* Add Attribute for your Entity and Select Data Type for Attributes.
-	* Save it( ⌘ + S ).
+	- Go to the Workspace.
+	- Double Click ProjectName.xcodeproj and Open it in Xcode.
+	- Open ProjectName.xcdatamodeld
+	- Add Entite and Change name as you wish.
+	- Add Attribute for your Entity and Select Data Type for Attributes.
+	- Save it( ⌘ + S ).
 
 #### 6. Core Data Object life cycle
 
