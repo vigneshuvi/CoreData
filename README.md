@@ -65,12 +65,8 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 Here's an example:
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 
-```
+```javascript
 var User = [NSManagedObject]()
 // Get AppDelegate Object       
 let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
