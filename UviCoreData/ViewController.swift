@@ -46,24 +46,28 @@ class ViewController: UIViewController {
         
         var User = [NSManagedObject]()
         
+        // Get AppDelegate Object
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
+        // Get Managed Context Object with help of AppDelegate.
         let managedContext = appDelegate.managedObjectContext
         
-        
+        // Create Entity Description with your entity name.
         let entity =  NSEntityDescription.entityForName("User",
             inManagedObjectContext:managedContext)
         
+        // Create Managed Objec with help of Entity and Managed Context.
         let userObj = NSManagedObject(entity: entity!,
             insertIntoManagedObjectContext: managedContext)
         
+        // Set the value for your represent attributes.
         userObj.setValue(name, forKey: "name")
         userObj.setValue(city, forKey: "city")
         
+        // Handle the Exception.
         do {
-            try managedContext.save()
-            //5
-            User.append(userObj)
+            try managedContext.save() // Save Mangaged Context
+            User.append(userObj) // Append your managedObject to the Database.
             
             logView.text = "User record is added to local Database.";
             
@@ -76,8 +80,10 @@ class ViewController: UIViewController {
         // Initialize Fetch Request
         let fetchRequest = NSFetchRequest()
         
+        // Get AppDelegate Object
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
+        // Get Managed Context Object with help of AppDelegate.
         let managedContext = appDelegate.managedObjectContext
         
         // Create Entity Description
