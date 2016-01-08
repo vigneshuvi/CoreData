@@ -9,7 +9,7 @@ CoreData tutorial helps to create iPhone/iPad mobile application Project with Co
 
 	-	[CoreData.framework](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CoreData/index.html)
 
-#Tutorial Table of Content
+#Tutorial Table of Contents
 
 	1.	Necessary Environemnt.
 	2.	Shortcut Keys in Xcode.
@@ -45,9 +45,9 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 	1.   Open Xcode.
 	2.   Create new project.(Fille > New > Project) - Shortcut Keys( ⇧ + ⌘ + N )
 	3.   Choose your template for you new project.
-		⋅⋅1. 	Select Single View Application
-		..2. 	Select Language Swift
-		..3.	Select Use Core Data Check box.
+	⋅⋅1. 	Select Single View Application
+	..2. 	Select Language Swift
+	..3.	Select Use Core Data Check box.
 	4.   Save it in Workspace.
 
 #5. Create Entities and Attributes in Model Layer
@@ -65,7 +65,7 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 
 		Here's an example:
 
-		```Swift
+		```
 
 		var User = [NSManagedObject]()
 		// Get AppDelegate Object       
@@ -100,7 +100,9 @@ Reference [CoreData.framework](https://developer.apple.com/library/mac/documenta
 *	Clone with github URL. [https://github.com/vigneshuvi/CoreData.git](https://github.com/vigneshuvi/CoreData.git)
 
 
+Do you like it?
 
+Do you like this repo? Share it on Twitter, Facebook, Google+ or anywhere you like so that more of us can use it and help. Thanks!
 
 Created by [Vignesh](http://vigneshuvi.github.io/) ![alt text][logo]
 
